@@ -13,6 +13,7 @@ public class CompareNumbers {
     //isEven Method
 
     public static int isEven(int numbers){
+    //Making a conditional to check if its even.
         if (numbers %2 == 0){
             System.out.println(true);
         }else{
@@ -23,7 +24,8 @@ public class CompareNumbers {
     }
 
     //isPositive method
-    public static int isPositive(int numbers){
+    public static double isPositive(double numbers){
+    //Making a conditional to check if numbers is greater than 0 for positive.
         if( numbers > 0){
             System.out.println("This number is postive");
         }else{
